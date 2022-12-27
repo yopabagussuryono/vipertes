@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6C2B4D42928A86C009C3AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C2B4D32928A86C009C3AF0 /* AppDelegate.swift */; };
+		C6C2B4DD2928A86F009C3AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C2B4DC2928A86F009C3AF0 /* Assets.xcassets */; };
+		C6C2B4E02928A86F009C3AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C2B4DE2928A86F009C3AF0 /* LaunchScreen.storyboard */; };
+		C6F74FB929571E9E00E76608 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F74FB729571E9E00E76608 /* LoginView.swift */; };
+		C6F74FBA29571E9E00E76608 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F74FB829571E9E00E76608 /* LoginView.xib */; };
+		C6F74FBD2957209A00E76608 /* TextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F74FBC2957209A00E76608 /* TextFieldCustom.swift */; };
+		C6F74FC0295721F800E76608 /* ExtUIField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F74FBF295721F800E76608 /* ExtUIField.swift */; };
+		C6F74FC22959A44B00E76608 /* ExtUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F74FC12959A44B00E76608 /* ExtUIButton.swift */; };
+		C6F74FC42959A50E00E76608 /* ButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F74FC32959A50E00E76608 /* ButtonCustom.swift */; };
+		C6F74FCC2959A74300E76608 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F74FCA2959A74300E76608 /* RegisterView.swift */; };
+		C6F74FCD2959A74300E76608 /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F74FCB2959A74300E76608 /* RegisterView.xib */; };
+		C6F74FD12959A77800E76608 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F74FCF2959A77800E76608 /* MainView.swift */; };
+		C6F74FD22959A77800E76608 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F74FD02959A77800E76608 /* MainView.xib */; };
+		C6F74FD82959B19600E76608 /* InteractorLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F74FD72959B19600E76608 /* InteractorLogin.swift */; };
+		C6F74FDA2959B1A800E76608 /* PresenterLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F74FD92959B1A800E76608 /* PresenterLogin.swift */; };
+		C6F74FDC2959B1B900E76608 /* EntityLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F74FDB2959B1B900E76608 /* EntityLogin.swift */; };
+		C6F74FDE2959B1CF00E76608 /* RouterLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F74FDD2959B1CF00E76608 /* RouterLogin.swift */; };
+		C89AB3771CE6A948B5C3332A /* Pods_BelajarFundamental.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1831092862CA1B18995D1B /* Pods_BelajarFundamental.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CEC6CB7460B621CD4BAD065 /* Pods-BelajarFundamental.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BelajarFundamental.debug.xcconfig"; path = "Target Support Files/Pods-BelajarFundamental/Pods-BelajarFundamental.debug.xcconfig"; sourceTree = "<group>"; };
+		C6C2B4D02928A86C009C3AF0 /* BelajarFundamental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BelajarFundamental.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C2B4D32928A86C009C3AF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6C2B4DC2928A86F009C3AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6C2B4DF2928A86F009C3AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6C2B4E12928A86F009C3AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F74FB729571E9E00E76608 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C6F74FB829571E9E00E76608 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		C6F74FBC2957209A00E76608 /* TextFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustom.swift; sourceTree = "<group>"; };
+		C6F74FBF295721F800E76608 /* ExtUIField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUIField.swift; sourceTree = "<group>"; };
+		C6F74FC12959A44B00E76608 /* ExtUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUIButton.swift; sourceTree = "<group>"; };
+		C6F74FC32959A50E00E76608 /* ButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustom.swift; sourceTree = "<group>"; };
+		C6F74FCA2959A74300E76608 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		C6F74FCB2959A74300E76608 /* RegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
+		C6F74FCF2959A77800E76608 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C6F74FD02959A77800E76608 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		C6F74FD72959B19600E76608 /* InteractorLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorLogin.swift; sourceTree = "<group>"; };
+		C6F74FD92959B1A800E76608 /* PresenterLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterLogin.swift; sourceTree = "<group>"; };
+		C6F74FDB2959B1B900E76608 /* EntityLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityLogin.swift; sourceTree = "<group>"; };
+		C6F74FDD2959B1CF00E76608 /* RouterLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterLogin.swift; sourceTree = "<group>"; };
+		DB1831092862CA1B18995D1B /* Pods_BelajarFundamental.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BelajarFundamental.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2264BF36061BBD53DA8B83B /* Pods-BelajarFundamental.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BelajarFundamental.release.xcconfig"; path = "Target Support Files/Pods-BelajarFundamental/Pods-BelajarFundamental.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6C2B4CD2928A86C009C3AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89AB3771CE6A948B5C3332A /* Pods_BelajarFundamental.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AB2D541F631A98810A557B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1831092862CA1B18995D1B /* Pods_BelajarFundamental.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C602207829571E3E00E2E3E8 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FC82959A71400E76608 /* main */,
+				C6F74FC72959A70B00E76608 /* register */,
+				C6F74FC62959A6F900E76608 /* login */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		C602207929571E5000E2E3E8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FB729571E9E00E76608 /* LoginView.swift */,
+				C6F74FB829571E9E00E76608 /* LoginView.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C6C2B4C72928A86C009C3AF0 = {
+			isa = PBXGroup;
+			children = (
+				C6C2B4D22928A86C009C3AF0 /* BelajarFundamental */,
+				C6C2B4D12928A86C009C3AF0 /* Products */,
+				FF8359A5BED18F1DF268EF90 /* Pods */,
+				4AB2D541F631A98810A557B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6C2B4D12928A86C009C3AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6C2B4D02928A86C009C3AF0 /* BelajarFundamental.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6C2B4D22928A86C009C3AF0 /* BelajarFundamental */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FBE295721DB00E76608 /* extension */,
+				C6F74FBB2957207D00E76608 /* component */,
+				C602207829571E3E00E2E3E8 /* module */,
+				C6C2B4D32928A86C009C3AF0 /* AppDelegate.swift */,
+				C6C2B4DC2928A86F009C3AF0 /* Assets.xcassets */,
+				C6C2B4DE2928A86F009C3AF0 /* LaunchScreen.storyboard */,
+				C6C2B4E12928A86F009C3AF0 /* Info.plist */,
+			);
+			path = BelajarFundamental;
+			sourceTree = "<group>";
+		};
+		C6F74FBB2957207D00E76608 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FBC2957209A00E76608 /* TextFieldCustom.swift */,
+				C6F74FC32959A50E00E76608 /* ButtonCustom.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		C6F74FBE295721DB00E76608 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FBF295721F800E76608 /* ExtUIField.swift */,
+				C6F74FC12959A44B00E76608 /* ExtUIButton.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		C6F74FC62959A6F900E76608 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FD62959AC7100E76608 /* router */,
+				C6F74FD52959AC5F00E76608 /* entity */,
+				C6F74FD42959AC1100E76608 /* presenter */,
+				C6F74FD32959AC0200E76608 /* interactor */,
+				C602207929571E5000E2E3E8 /* view */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		C6F74FC72959A70B00E76608 /* register */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FC92959A72800E76608 /* view */,
+			);
+			path = register;
+			sourceTree = "<group>";
+		};
+		C6F74FC82959A71400E76608 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FCE2959A76100E76608 /* view */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		C6F74FC92959A72800E76608 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FCA2959A74300E76608 /* RegisterView.swift */,
+				C6F74FCB2959A74300E76608 /* RegisterView.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C6F74FCE2959A76100E76608 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FCF2959A77800E76608 /* MainView.swift */,
+				C6F74FD02959A77800E76608 /* MainView.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C6F74FD32959AC0200E76608 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FD72959B19600E76608 /* InteractorLogin.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		C6F74FD42959AC1100E76608 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FD92959B1A800E76608 /* PresenterLogin.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		C6F74FD52959AC5F00E76608 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FDB2959B1B900E76608 /* EntityLogin.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		C6F74FD62959AC7100E76608 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74FDD2959B1CF00E76608 /* RouterLogin.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		FF8359A5BED18F1DF268EF90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CEC6CB7460B621CD4BAD065 /* Pods-BelajarFundamental.debug.xcconfig */,
+				E2264BF36061BBD53DA8B83B /* Pods-BelajarFundamental.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6C2B4CF2928A86C009C3AF0 /* BelajarFundamental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C2B4E42928A86F009C3AF0 /* Build configuration list for PBXNativeTarget "BelajarFundamental" */;
+			buildPhases = (
+				64E007620DEB004675465866 /* [CP] Check Pods Manifest.lock */,
+				C6C2B4CC2928A86C009C3AF0 /* Sources */,
+				C6C2B4CD2928A86C009C3AF0 /* Frameworks */,
+				C6C2B4CE2928A86C009C3AF0 /* Resources */,
+				232676451B9DA1E562BC4B29 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BelajarFundamental;
+			productName = BelajarFundamental;
+			productReference = C6C2B4D02928A86C009C3AF0 /* BelajarFundamental.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6C2B4C82928A86C009C3AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C6C2B4CF2928A86C009C3AF0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C6C2B4CB2928A86C009C3AF0 /* Build configuration list for PBXProject "BelajarFundamental" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6C2B4C72928A86C009C3AF0;
+			productRefGroup = C6C2B4D12928A86C009C3AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6C2B4CF2928A86C009C3AF0 /* BelajarFundamental */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6C2B4CE2928A86C009C3AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C2B4E02928A86F009C3AF0 /* LaunchScreen.storyboard in Resources */,
+				C6F74FCD2959A74300E76608 /* RegisterView.xib in Resources */,
+				C6C2B4DD2928A86F009C3AF0 /* Assets.xcassets in Resources */,
+				C6F74FBA29571E9E00E76608 /* LoginView.xib in Resources */,
+				C6F74FD22959A77800E76608 /* MainView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		232676451B9DA1E562BC4B29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BelajarFundamental/Pods-BelajarFundamental-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BelajarFundamental/Pods-BelajarFundamental-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BelajarFundamental/Pods-BelajarFundamental-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64E007620DEB004675465866 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BelajarFundamental-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6C2B4CC2928A86C009C3AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F74FC42959A50E00E76608 /* ButtonCustom.swift in Sources */,
+				C6F74FD12959A77800E76608 /* MainView.swift in Sources */,
+				C6F74FDE2959B1CF00E76608 /* RouterLogin.swift in Sources */,
+				C6F74FDA2959B1A800E76608 /* PresenterLogin.swift in Sources */,
+				C6F74FC0295721F800E76608 /* ExtUIField.swift in Sources */,
+				C6F74FBD2957209A00E76608 /* TextFieldCustom.swift in Sources */,
+				C6F74FCC2959A74300E76608 /* RegisterView.swift in Sources */,
+				C6F74FB929571E9E00E76608 /* LoginView.swift in Sources */,
+				C6F74FD82959B19600E76608 /* InteractorLogin.swift in Sources */,
+				C6F74FDC2959B1B900E76608 /* EntityLogin.swift in Sources */,
+				C6C2B4D42928A86C009C3AF0 /* AppDelegate.swift in Sources */,
+				C6F74FC22959A44B00E76608 /* ExtUIButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6C2B4DE2928A86F009C3AF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6C2B4DF2928A86F009C3AF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6C2B4E22928A86F009C3AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6C2B4E32928A86F009C3AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6C2B4E52928A86F009C3AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CEC6CB7460B621CD4BAD065 /* Pods-BelajarFundamental.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHF8M5H7Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BelajarFundamental/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yopa.cullun.BelajarFundamental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6C2B4E62928A86F009C3AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2264BF36061BBD53DA8B83B /* Pods-BelajarFundamental.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHF8M5H7Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BelajarFundamental/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yopa.cullun.BelajarFundamental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6C2B4CB2928A86C009C3AF0 /* Build configuration list for PBXProject "BelajarFundamental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C2B4E22928A86F009C3AF0 /* Debug */,
+				C6C2B4E32928A86F009C3AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6C2B4E42928A86F009C3AF0 /* Build configuration list for PBXNativeTarget "BelajarFundamental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C2B4E52928A86F009C3AF0 /* Debug */,
+				C6C2B4E62928A86F009C3AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6C2B4C82928A86C009C3AF0 /* Project object */;
+}

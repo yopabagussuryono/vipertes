@@ -1,0 +1,6 @@
+framework module Pods_BelajarFundamental {
+  umbrella header "Pods-BelajarFundamental-umbrella.h"
+
+  export *
+  module * { export * }
+}
